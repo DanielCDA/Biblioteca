@@ -1,0 +1,28 @@
+#cabecalho{
+    
+    background-color: #18243b;
+    margin-bottom: 20px;
+    border: 1px solid;
+    padding: 16px;
+   
+    display: flex;
+    justify-content: space-between;
+    padding-left:40px; 
+}
+#logotipo{
+    width:150px;
+    heigth: 150px;
+}
+#cabecalho div a {
+    color: white;
+    margin-right: 10px;
+}
+#menu li{
+    display: inline;
+    margin-right: 45px;
+}
+#banner
+{
+    width: 1300px;
+    height: 350px;
+}
