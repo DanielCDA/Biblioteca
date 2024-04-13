@@ -76,38 +76,50 @@ nav::after{
 {
     background: url('imagens/banner1.jpg') no-repeat;
     background-size: cover;
-    background-position: 0 40%;
+    background-position: 0 37%;
     position: relative;
     margin-top: 93px;
 
 }
-#banner h1
+#shearch-from
 {
     position: relative;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20%;
-    padding-bottom: 5em;
-    text-align: 50%;
+    padding-top: 15em;
+    padding-bottom: 15em;
+    text-align: center;
+    text-align: center;
+    
+}
+#shearch-form h1{
     font-size: 40px;
 }
-#banner p{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
+#shearch-form p{
+    margin-top: 30px;
     margin-bottom: 60px;
     font-size: 39px;
     font-weight:300;
 }
 
-#seach-form input, #seach-form select
+#shearch-form input, #shearch-form select
 {
     background-color: #fff;
     border-radius: 5px;
-    border-color: 5px;
+    border-color: transparent;
     padding: 10px 20px;
     font-size: 18px;
-    margin: 0 10px;
     cursor: pointer;
 } 
+#shearch-form input[type=submit]
+{
+  background-color: #3381f3;  
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5; 
+}
+#shearch-form input[type=submit]:hover{
+    background-color: #2B79eb ;
+}
