@@ -1,3 +1,10 @@
+h3{
+    font-size: 40px;
+    background-color:  #1e8fcd;
+    margin-right:1100px;
+    margin-left: 10px;
+    border-radius: 0px 50px  50px 0px;
+}
 #livros
 {
     margin-top: 10px;
@@ -8,7 +15,18 @@
 #livros img
 {
     align-items: inherit; 
-    width: 100px;
-    padding: 0 16px;
-    background-size: cover;
+    
+    padding: 0 0px;
+    width: 200px;
+    height: 300px;
+    align-items: center;
+    box-shadow: 5px 5px 5px 8px #0000005e;
+    margin: 0 30px ;
+ 
+}
+#livros p
+{
+    align-items: center;
+    margin-left: 35px;
+
 }
