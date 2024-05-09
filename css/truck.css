@@ -1,0 +1,14 @@
+#livros
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#livros img
+{
+    align-items: inherit; 
+    width: 100px;
+    padding: 0 16px;
+    background-size: cover;
+}

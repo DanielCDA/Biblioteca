@@ -1,0 +1,68 @@
+html
+{
+    font-family:'Open Sans', sans-serif;
+}
+.container
+{
+    max-width: 1920px;
+    width:100%;
+}
+nav {
+    position: fixed;
+    top: 0;
+    height: auto;
+    width: 100%;
+    z-index:1;
+}
+nav::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.navigation{
+    
+    position: relative;
+    margin-right:auto;
+    margin-left: auto;
+    background-color: #18243b;
+    margin-bottom: 20px;
+    border: 1px solid;
+    padding: 16px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-left:30px; 
+}
+#logotipo{
+    width: 170px;
+    height: 55px;
+}
+
+.navigation ul {
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    
+    margin: 0;
+}
+.navigation li{
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+}
+.navigation li a
+{
+    text-decoration: none;
+    color: white;
+    transition:.5%;
+}
+
+.navigation li a:hover
+{
+    color: #3381f3;
+ 
+}
+
+
+
+
