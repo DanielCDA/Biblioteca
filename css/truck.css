@@ -7,10 +7,10 @@ h3{
 }
 #livros
 {
-    margin-top: 10px;
-    margin-left: 10px;
     display: flex;
-    justify-content: space-between;
+ 
+    align-items: start;
+    flex-wrap: wrap;
 }
 #livros img
 {

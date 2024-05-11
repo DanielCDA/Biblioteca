@@ -3,11 +3,7 @@ html
     font-family:'Open Sans', sans-serif;
     background-color: rgba(243, 216, 182, 0.815);
 }
-.container
-{
-    max-width: 1920px;
-    width:100%;
-}
+
 nav {
     position: fixed;
     top: 0;
@@ -27,24 +23,24 @@ nav::after{
     margin-left: auto;
     background-color: #18243b;
     margin-bottom: 20px;
-    border: 1px solid;
     padding: 16px;
-    height: 60px;
+    height: 85px;
     display: flex;
     justify-content: space-between;
     padding-left:30px; 
 }
 #logotipo{
+    display: flex;
     width: 170px;
     height: 55px;
 }
 
 .navigation ul {
+    display: flex;
     float: right;
     height: 100px;
-    line-height: 100px;
+    line-height: 110px;
     
-    margin: 0;
 }
 .navigation li{
     list-style: none;
