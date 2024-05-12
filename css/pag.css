@@ -13,15 +13,18 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     text-overflow: ellipsis;
     width: 600px;
-
-    
+    text-align: center;
 }
 #item{
 
 }
-img
+h1{
+    text-align: center;
+}
+#distaque
 {
-    width: 30%;
+    margin: 0 auto;
+    width: 10%;
 }
 #texto{
     color: black;

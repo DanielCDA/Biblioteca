@@ -1,61 +1,49 @@
-html
+body
 {
     font-family:'Open Sans', sans-serif;
     background-color: rgba(243, 216, 182, 0.815);
-}
-
-nav {
-    position: fixed;
-    top: 0;
-    height: auto;
-    width: 100%;
-    z-index:1;
-}
-nav::after{
-    clear: both;
-    content: "";
-    display: block;
+    margin: 0;
+    padding: 0;
 }
 .navigation{
-    
-    position: relative;
-    margin-right:auto;
-    margin-left: auto;
-    background-color: #18243b;
-    margin-bottom: 20px;
-    padding: 16px;
-    height: 85px;
+    position: fixed;
+    top: 0;  
     display: flex;
     justify-content: space-between;
-    padding-left:30px; 
+    background-color: #18243b;
+    margin-bottom: 10px;    
+    width: 100%;
+   
 }
 #logotipo{
-    display: flex;
-    width: 170px;
-    height: 55px;
+    width: 150px;
+    height: 70px;
 }
 
 .navigation ul {
     display: flex;
-    float: right;
+    float: left;
     height: 100px;
     line-height: 110px;
     
 }
-.navigation li{
+#menu li{
+    font-family: 'Times New Roman', Times, serif;
     list-style: none;
-    float: left;
+    float: center;
     margin: 0 15px;
 }
-.navigation li a
+#menu li a
 {
     text-decoration: none;
     color: white;
+    margin-right: 40px;
     transition:.5%;
 }
 
-.navigation li a:hover
+#menu li a:hover
 {
+    
     color: #3381f3;
  
 }
