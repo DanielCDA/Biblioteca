@@ -1,0 +1,28 @@
+.livro{
+    padding: auto;
+    margin-top: 150px;
+    margin-bottom: 60px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+#title
+{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-overflow: ellipsis;
+    width: 500px;
+    
+}
+#item{
+
+}
+img
+{
+    width: 30%;
+}
+#texto{
+    color: black;
+  
+}
