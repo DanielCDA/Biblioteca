@@ -16,8 +16,10 @@ body
    
 }
 #logotipo{
-    width: 150px;
-    height: 70px;
+    margin-top: 18px;
+    margin-left: 20px;
+    width: 170px;
+    height: 60px;
 }
 
 .navigation ul {
