@@ -48,14 +48,11 @@ h3{
     width: 1000px;
     justify-content: space-between;
     align-items: center;
-
-   
 }
 #sala{
     height: inherit;
     width: auto;
     border-radius: 20px;  
-    
 }
 
 /*SOBRE */
@@ -69,12 +66,9 @@ h3{
     justify-content: space-between;
     align-items: center;
     gap:10px;
-  
-    
 }
-#item{
+#item{}
 
-}
 #paragrafo{
     width: 450px;
 }
