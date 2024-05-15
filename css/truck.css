@@ -30,3 +30,33 @@ h3{
     margin-left: 35px;
 
 }
+
+/* serviços*/
+#container{
+   
+    margin-top: 120px;
+}
+#serviços{
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+#item{
+    display: flex;
+    height: 350px;
+    width: 850px;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+#sala{
+    height: inherit;
+    width: auto;
+    border-radius: 20px;  
+}
+
+/*SOBRE */
