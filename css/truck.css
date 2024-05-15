@@ -33,7 +33,6 @@ h3{
 
 /* serviços*/
 #container{
-   
     margin-top: 120px;
 }
 #serviços{
@@ -41,22 +40,49 @@ h3{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
-    
-    
+    align-items: center;    
 }
 #item{
     display: flex;
     height: 350px;
-    width: 850px;
+    width: 1000px;
     justify-content: space-between;
     align-items: center;
+
    
 }
 #sala{
     height: inherit;
     width: auto;
     border-radius: 20px;  
+    
 }
 
 /*SOBRE */
+#cotaier h1{
+    text-align: center;
+}
+.texto{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+  
+    
+}
+#item{
+
+}
+#paragrafo{
+    width: 450px;
+}
+#item p{
+    text-align: justify;
+}
+#sobre{
+    height: inherit;
+    width: 450px;  
+    border-radius: 30px;
+}
