@@ -2,8 +2,10 @@
     margin-top: 0px;
     margin-bottom: 60px;
     background: url("../imagens/livros1.jpg") ;
+    max-width: 100%;
+
     background-color: #cccccc;
-    height: 800px;
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
 }
