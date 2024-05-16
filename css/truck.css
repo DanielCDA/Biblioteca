@@ -38,6 +38,12 @@ h3{
 #container{
     margin-top: 120px;
 }
+#acima{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 20px;
+
+}
 #serviços{
     height: 1500px;
     display: flex;
@@ -59,9 +65,6 @@ h3{
 }
 
 /*SOBRE */
-#cotaier h1{
-    text-align: center;
-}
 .texto{
     height: 500px;
     display: flex;
